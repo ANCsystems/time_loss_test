@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-19 11:22:38.403253",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "time_stamp",
+  "grade_target",
+  "avg_machine_speed",
+  "run_tonnage",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "time_stamp",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Time Stamp"
+  },
+  {
+   "fieldname": "grade_target",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Grade Target"
+  },
+  {
+   "fieldname": "avg_machine_speed",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Avg Machine Speed"
+  },
+  {
+   "fieldname": "run_tonnage",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Run Tonnage"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Grade Run",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-05-21 12:11:16.971438",
+ "modified_by": "Administrator",
+ "module": "Time Loss Test",
+ "name": "Grade Run",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

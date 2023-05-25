@@ -1,0 +1,283 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-18 12:59:49.573645",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "time_log",
+  "section_break_biun",
+  "start_time",
+  "column_break_xwu9",
+  "end_time",
+  "section_break_4ejb",
+  "position",
+  "section_break_ffqh",
+  "cd_position",
+  "column_break_ccax",
+  "md_position",
+  "section_break_bdbh",
+  "description",
+  "section_break",
+  "area_code",
+  "column_break_spya",
+  "stop_reason",
+  "column_break_kuls",
+  "reeltag",
+  "section_break_vnuo",
+  "stock_off_wire",
+  "column_break_caxl",
+  "lost_time_amount",
+  "column_break_fhtw",
+  "trend_alias",
+  "section_break_fmjz",
+  "lost_time_detail",
+  "section_break_jhj8",
+  "comments",
+  "section_break_r645",
+  "comment",
+  "column_break_yn2j",
+  "reviewer_notes",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "fieldname": "lost_time_detail",
+   "fieldtype": "Table",
+   "label": "Lost Time Detail",
+   "options": "Paper Machine Lost Time Detail"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "area_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Area Code",
+   "options": "Area Code"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "cd_position",
+   "fieldtype": "Link",
+   "label": "CD Position",
+   "options": "CrossDirection Position"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "md_position",
+   "fieldtype": "Link",
+   "label": "MD Position",
+   "options": "MachineDirection Position"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Start Time"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "End Time"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "stop_reason",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stop Reason",
+   "options": "Stop Reasons"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "comment",
+   "fieldtype": "Text",
+   "label": "Comment"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "reeltag",
+   "fieldtype": "Link",
+   "label": "Reel Tag",
+   "options": "Reels"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "stock_off_wire",
+   "fieldtype": "Data",
+   "label": "Stock Off Wire"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "reviewer_notes",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Reviewer Notes"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "lost_time_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lost Time Amount"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_xwu9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_ccax",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_bdbh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_spya",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_kuls",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_vnuo",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_caxl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_fhtw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_fmjz",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_jhj8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_yn2j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "time_log",
+   "fieldtype": "Heading",
+   "label": "Time Log"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_biun",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "position",
+   "fieldtype": "Heading",
+   "label": "Position"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_4ejb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_ffqh",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "description",
+   "fieldtype": "Heading",
+   "label": "Description"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "comments",
+   "fieldtype": "Heading",
+   "label": "Comments"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_r645",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PaperMachine Lost Time",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "trend_alias",
+   "fieldtype": "Link",
+   "label": "Trend Alias",
+   "options": "Trend Alias"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-05-23 14:44:00.901927",
+ "modified_by": "Administrator",
+ "module": "Time Loss Test",
+ "name": "PaperMachine Lost Time",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

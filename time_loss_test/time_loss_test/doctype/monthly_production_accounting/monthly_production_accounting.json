@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-19 11:40:15.874168",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "monthyear",
+  "prime_production",
+  "cull_production",
+  "budgeted_production",
+  "contribution_model_value",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "monthyear",
+   "fieldtype": "Datetime",
+   "label": "Month/Year"
+  },
+  {
+   "fieldname": "prime_production",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Prime Production"
+  },
+  {
+   "fieldname": "cull_production",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cull Production"
+  },
+  {
+   "fieldname": "budgeted_production",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Budgeted Production"
+  },
+  {
+   "fieldname": "contribution_model_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contribution Model Value"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Monthly Production Accounting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-05-21 12:09:58.069040",
+ "modified_by": "Administrator",
+ "module": "Time Loss Test",
+ "name": "Monthly Production Accounting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include time_loss_test *.css
+recursive-include time_loss_test *.csv
+recursive-include time_loss_test *.html
+recursive-include time_loss_test *.ico
+recursive-include time_loss_test *.js
+recursive-include time_loss_test *.json
+recursive-include time_loss_test *.md
+recursive-include time_loss_test *.png
+recursive-include time_loss_test *.py
+recursive-include time_loss_test *.svg
+recursive-include time_loss_test *.txt
+recursive-exclude time_loss_test *.pyc

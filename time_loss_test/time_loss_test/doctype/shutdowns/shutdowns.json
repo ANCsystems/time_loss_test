@@ -1,0 +1,282 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-18 10:47:42.781649",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_information",
+  "section_break_451q",
+  "date",
+  "column_break_iy3k",
+  "shutdown_type",
+  "amended_from",
+  "section_break_bygd",
+  "time_frame_description",
+  "section_break_o9w0",
+  "start_time",
+  "column_break_eyut",
+  "end_time",
+  "column_break_cwzd",
+  "description",
+  "section_break_gtkd",
+  "loss_time_details",
+  "column_break_afdx",
+  "loss_time",
+  "tones_lost",
+  "column_break_2guy",
+  "total_scheduled_minutes",
+  "capital_asset",
+  "column_break_ehvi",
+  "total_budgeted__minutes",
+  "location",
+  "section_break_pq6h",
+  "other_comments",
+  "section_break_0mmo",
+  "other_losses",
+  "operator_comments",
+  "column_break_3jig",
+  "description_of_other_losses",
+  "supervisor_comments"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "description": "Date Of Submission",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Shutdowns",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "shutdown_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Shutdown Type",
+   "options": "Shutdown Type",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_iy3k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "general_information",
+   "fieldtype": "Heading",
+   "label": "General Information"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_451q",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "time_frame_description",
+   "fieldtype": "Heading",
+   "label": "Time Frame & Description"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_bygd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "description": "Shutdown Start Time",
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Time",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_eyut",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "description": "Shutdown End Time",
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "End Time",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_cwzd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "description": "If applicable",
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_o9w0",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "loss_time_details",
+   "fieldtype": "Heading",
+   "label": "Loss Time Details"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_afdx",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "loss_time",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Loss Time",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "tones_lost",
+   "fieldtype": "Data",
+   "label": "Tones Lost",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_2guy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "total_scheduled_minutes",
+   "fieldtype": "Float",
+   "label": "Total Scheduled Minutes",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "capital_asset",
+   "fieldtype": "Data",
+   "label": "Capital Asset"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_ehvi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "total_budgeted__minutes",
+   "fieldtype": "Float",
+   "label": "Total Budgeted  Minutes"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_gtkd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_pq6h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "other_comments",
+   "fieldtype": "Heading",
+   "label": "Other & Comments"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "other_losses",
+   "fieldtype": "Float",
+   "label": "Other Losses"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "operator_comments",
+   "fieldtype": "Text",
+   "label": "Operator Comments"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "column_break_3jig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "description_of_other_losses",
+   "fieldtype": "Data",
+   "label": "Description Of Other Losses"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "supervisor_comments",
+   "fieldtype": "Text",
+   "label": "Supervisor Comments"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "section_break_0mmo",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-05-21 12:01:38.039391",
+ "modified_by": "Administrator",
+ "module": "Time Loss Test",
+ "name": "Shutdowns",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
